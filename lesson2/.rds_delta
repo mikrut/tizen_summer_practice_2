@@ -3,5 +3,5 @@
 #modify
 res/wgt/author-signature.xml
 res/wgt/signature1.xml
-res/wgt/index.html
-res/wgt/js\jQ.js
+res/wgt/jqMobile.html
+res/wgt/js/script.js
