@@ -7,9 +7,10 @@
         <title>jQuery Mobile Example App</title>
         <style type="text/css" media="screen">@import "css/jquery.mobile-1.4.5.min.css";</style>        
 		<style type="text/css" media="screen">@import "css/style.css";</style>		
-        <script src="js/script.js"></script>
         <script src="js/jquery-2.0.0.min.js"></script>		
         <script src="js/jquery.mobile-1.4.5.min.js" type="application/x-javascript" charset="utf-8"></script>	
+		<script src="js/script.js"></script>
+        <script src="js/rating.js"></script>
 		<script>		
 
 			window.addEventListener('tizenhwkey', function onTizenHwKey(e) {
@@ -27,8 +28,7 @@
 			</div>
 			<div data-role="content" >	
 				<ul data-role="listview" data-inset="true" data-theme="a">
-					<li><a href="#search">Поиск</a></li>
-					<li><a href="#contact">Связаться с нами</a></li>
+					<li><a href="#rate">Оценка</a></li>
 					<li><a href="#rss">RSS</a>
 				</ul>
 			</div>
@@ -50,23 +50,30 @@
 		</div>		
 
 
-		<div data-role="page" id="contact" data-theme="a">
+		<div data-role="page" id="rate" data-theme="a">
 			<div data-role="header" >
-				<h1>Связаться с нами</h1>
+				<h1>Оцените наше приложение!</h1>
 			</div>
-			<div data-role="content" >	
-				<h1>Samsung</h1>
-				<div>Здравствуйте! Напишите нам используя данные описанные ниже или воспользуйтесь формой</div>
-				<ul data-role="listview" data-inset="true" data-theme="c" role="listbox">
-					
-					<li><a href="mailto:d.kashanov@samsung.com" class="ui-link-inherit">Написать письмо</a></li>
-					<li><a href="tel:+74957972500" class="ui-link-inherit">Позвонить</a></li>
-					
-				</ul>
-				<label for="name">Ваше имя:</label>
-					<input type="text" name="name" id="name" value=""  />
-					<label for="textarea">Что можно улучшить:</label>
-					<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>	
+			<div data-role="content" >
+				<form autocomplete="off" id="form-rate">
+					<fieldset data-role="controlgroup">
+						<legend>Do you like our app?</legend>
+						
+						<input type="radio"	name="like" value="true" id="radio-like" checked="checked"/> 
+						<label for="radio-like">Like!</label>
+						
+						<input type="radio" name="like" value="true" id="radio-dislike"/>
+						<label for="radio-dislike">Dislike</label>
+					</fieldset>
+					<br/>
+					Please, leave us your commentary on this app: <br/>
+					<textarea rows="6" cols="50" maxlength="256" id="rate-comment" style="resize: none;"></textarea>
+					<input type="submit" value="Send" />
+				</form>
+				<div id="rating_results">
+					<div id="rating_results_stat"></div>
+					<div id="rating_results_comments"></div>
+				</div>
 			</div>
 
 		</div>
@@ -93,18 +100,6 @@
 						<option value="c">C</option>
 					</select>						
 				</div>	
-			</div>
-
-		</div>
-		<div data-role="page" id="search" data-theme="a">
-			<div data-role="header" >
-				<h1>Поиск</h1>
-			</div>
-			<div data-role="content" >	
-				<label for="search">Поиск</label>
-				<input type="search" name="search_form" id="search" value=""/>
-				<ul data-role="listview" data-inset="true" id="searchresult">					
-				</ul>
 			</div>
 
 		</div>
