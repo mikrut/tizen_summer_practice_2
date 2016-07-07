@@ -9,6 +9,7 @@
 		<style type="text/css" media="screen">@import "css/style.css";</style>		
         <script src="js/jquery-2.0.0.min.js"></script>		
         <script src="js/jquery.mobile-1.4.5.min.js" type="application/x-javascript" charset="utf-8"></script>	
+		<script src="js/vibro.js"></script>
 		<script>		
 
 			window.addEventListener('tizenhwkey', function onTizenHwKey(e) {
@@ -78,7 +79,17 @@
 						<option value="b">B</option>
 						<option value="c">C</option>
 					</select>						
-				</div>	
+				</div>
+				
+				<button onclick="vibrateOnce()">Vibrate once</button>	
+				<button onclick="vibrateTwice()">Vibrate twice</button>
+				<button onclick="stopVibrate()">Stop vibration</button>
+				
+				<label for="slider_bluetooth">Bluetooth:</label>
+				<select name="slider_bluethooth" id="slider_bluetooth" onchange="onOffBluetooth()" data-role="slider">
+					<option value="off">off</option>
+					<option value="on">on</option>
+				</select>
 			</div>
 
 		</div>
