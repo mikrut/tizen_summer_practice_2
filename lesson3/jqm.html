@@ -18,6 +18,7 @@
 	type="application/x-javascript" charset="utf-8"></script>
 <script src="js/vibro.js"></script>
 <script src="js/camera.js"></script>
+<script src="js/wifiinfo.js"></script>
 <script>
 	window.addEventListener('tizenhwkey', function onTizenHwKey(e) {
 		if (e.keyName === 'back') {
@@ -100,6 +101,9 @@
 				<option value="off">off</option>
 				<option value="on">on</option>
 			</select>
+			
+			<h2>WiFi status</h2>
+			<div id="wifi_info" class="connection-status"></div>
 		</div>
 
 	</div>

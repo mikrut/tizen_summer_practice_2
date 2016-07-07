@@ -4,6 +4,8 @@
     <tizen:application id="fWf5piqva7.BasicApplication" package="fWf5piqva7" required_version="2.3.1"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://tizen.org/feature/camera"/>
+    <feature name="http://tizen.org/feature/network.wifi"/>
     <icon src="icon.png"/>
     <name>BasicApplication</name>
     <tizen:privilege name="http://tizen.org/privilege/internet"/>
