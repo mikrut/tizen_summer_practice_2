@@ -36,7 +36,11 @@
 </Reference>
 <Reference URI="jqm.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>AXSJ3AUge4IOrhJpSZJmgrXtr3vW6aIVFQj1r740AwM=</DigestValue>
+<DigestValue>PkDaRPpW/g/Z18EMmuN0Q+8E248Cxlf+Vbx0o325vDk=</DigestValue>
+</Reference>
+<Reference URI="js%2Fcamera.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AW/+2xZk1wIlEQEmPImQawUvQZk9vgwoLBXSmVvLpfo=</DigestValue>
 </Reference>
 <Reference URI="js%2Fjquery-2.0.0.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -87,11 +91,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-D7vr8peB39PMNETQilo0MCFO+a00V+5Qb0kD9QcBLCArbzKeFZ2DH+fT+UlNQOeq80nLTO9DaHX0
-mkzDzStYZwK9EEEhBqbs0+vgqU4dZSYeX4lW8iaNPm7tn32ZwMvOUOm8EJBBj86vHyeqqllHUZ91
-TOL3QAXD+ayyRv2leJqOpQJVJ2pC/LvdFUzirkyoVhqe9zDwLww4S4W5N7YntyIfOj9PqOw0xbHS
-P8xNwkJGUUCWELwu6s5DAyWp+bSxFg97BH+h/MmP3cD3dTmbhMV6NpPgMFVV7VTtZh/UNCJtl/hx
-bG7VUTAp+kg4u6I71xeOInvKuP0VWBlhbICBiw==
+amuqgRnjn4+qAaex7WcU6s9PufSGs+ZbEq75CqKct2W1WlPKjB+slHCBL38IaaesTDBk31vZQRCS
+50QAeBS6dHo9Dk0H7xfoiKPyDOUFO6p+RJKQvN5K1lPZyUHmqh5MPaiS86MhIDg00V29gu6zJwdK
+d1YCHOWnCdcDNOkDR4ljE04+y3aVrZd09hZIuJKReEQJO8K1O7YDwlsMrpu9BwNUwJRsumZXPJIW
+EpAg8qJWC+4T3d/7MGrldeiktkU95u/VjX5Iw4kskeBKb4dqNlvVqW1Bn5CZi+wJ0JZ1CQjgUzBb
+Iu4Xf80f7KgAPHvu3+7LFjmkT979IDH3voqJ1Q==
 </SignatureValue>
 <KeyInfo>
 <X509Data>
