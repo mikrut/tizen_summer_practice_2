@@ -15,6 +15,14 @@ $(document).ready(function(){
 			for (var i = 0; i < rows.length; i++) {
 				var comment = $("<div>");
 				comment.text(rows[i].comment);
+				comment.css({
+					"border-radius": "25px",
+					background: ((rows[i].like=='true') ? "rgb(104, 177, 7)" : "rgb(203, 0, 0)"),
+					padding: "5px 20px 5px 20px",
+					margin: "10px",
+					color: "#ffffff",
+					"border-color": "rgb(49, 63, 102)"
+				})
 				domComments.append(comment);
 			}
 		},
