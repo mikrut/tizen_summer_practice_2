@@ -36,7 +36,7 @@
 </Reference>
 <Reference URI="jqm.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>PkDaRPpW/g/Z18EMmuN0Q+8E248Cxlf+Vbx0o325vDk=</DigestValue>
+<DigestValue>JQNa5H/EIRArUWx6mGGyQn88428nmJ3gVHo15W5Qj2A=</DigestValue>
 </Reference>
 <Reference URI="js%2Fcamera.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -74,6 +74,10 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>+gVoMIjGnyTCWH+/Bplolar7to40VRWid8sKfAyecgY=</DigestValue>
 </Reference>
+<Reference URI="js%2Fwifiinfo.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WYkdbPw+lv5xEu4AC4dNyLvAj3F8Bf0+TQIZg5MaWtc=</DigestValue>
+</Reference>
 <Reference URI="rss.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>XJ7tqPrAXh0m/mfskeV9H4SgFwMCFeiPljXa5Pmn4nc=</DigestValue>
@@ -91,11 +95,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-amuqgRnjn4+qAaex7WcU6s9PufSGs+ZbEq75CqKct2W1WlPKjB+slHCBL38IaaesTDBk31vZQRCS
-50QAeBS6dHo9Dk0H7xfoiKPyDOUFO6p+RJKQvN5K1lPZyUHmqh5MPaiS86MhIDg00V29gu6zJwdK
-d1YCHOWnCdcDNOkDR4ljE04+y3aVrZd09hZIuJKReEQJO8K1O7YDwlsMrpu9BwNUwJRsumZXPJIW
-EpAg8qJWC+4T3d/7MGrldeiktkU95u/VjX5Iw4kskeBKb4dqNlvVqW1Bn5CZi+wJ0JZ1CQjgUzBb
-Iu4Xf80f7KgAPHvu3+7LFjmkT979IDH3voqJ1Q==
+g40nseNn3soAhAo+QoAWWvc1STRLXb/yIpwA0nTgpMX9sQDMoxzALff5SH6VtCI84xT1PjWOV4j1
+nE2q9Rkq5IrLBqXqO0yjZ7OwJGoPfVvNO5cLZzzKwDyPAFRMOIdBs9xLxom7yX1ACuV0Mk8m1RA9
+H7h8FJaPb8I8N8JNjt/5kM/XzhyF/hePatYpHXgeUMvUmq79cBer1bhR5eOy50w2odQ5W7cVGOmh
+FwfCQ+Oscm9z9IG7vzqUxeZJrDffugRbeb6vmxqZjWO865rRlzhAjfnaPWM0fpqY0g6oGDdnkaCc
+bon0yFuTiRgfYvHXSyJRAgA/f9nj85FDxY/NHw==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

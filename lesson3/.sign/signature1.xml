@@ -8,7 +8,7 @@
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>Xs7+0wpk+8AMohxxb+MdxMxSfpWZ+xQPM4L0ZxGQp/k=</DigestValue>
+<DigestValue>VaxY6gGhCTdcM/KR279r1i2LrTGkUqCymBl7Nm8ZmOQ=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -40,7 +40,7 @@
 </Reference>
 <Reference URI="jqm.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>PkDaRPpW/g/Z18EMmuN0Q+8E248Cxlf+Vbx0o325vDk=</DigestValue>
+<DigestValue>JQNa5H/EIRArUWx6mGGyQn88428nmJ3gVHo15W5Qj2A=</DigestValue>
 </Reference>
 <Reference URI="js%2Fcamera.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -78,6 +78,10 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>+gVoMIjGnyTCWH+/Bplolar7to40VRWid8sKfAyecgY=</DigestValue>
 </Reference>
+<Reference URI="js%2Fwifiinfo.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WYkdbPw+lv5xEu4AC4dNyLvAj3F8Bf0+TQIZg5MaWtc=</DigestValue>
+</Reference>
 <Reference URI="rss.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>XJ7tqPrAXh0m/mfskeV9H4SgFwMCFeiPljXa5Pmn4nc=</DigestValue>
@@ -95,11 +99,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-lnf0YUkmmyy2dxfNiVLJ4mYcsNiKWZ2jLnukb0kZJmyC9d3ubZg733Ssk+3eNTTibSmpuggXCgiM
-Uikpute5jvKfdI1MkYjpfeOn44xC/5tub9zJ56ZkUwXyMRfpBAuHx4IW4QTRf0LH9xnlc2YStDkz
-CCFmigxngPuYRWbS3cd99Qjs58a9+W1yhqmGHtwvh9tNkdhudEFqv+2Yqn0nVjndxvlw59fpWsNS
-DBzxTmM/NCPXMEAe0xrk4iEe0hSOfbgBRpJFTrz4hABDZ2ihdfAVqq6eHsMAdUnpX+i3PYm29qLv
-3M3R3Y8IQSX8V2X7awFzSamsjk80P8kIgJGKHQ==
+dycufB552o0zkpraES3nCQ45d5GAqYNfNLarjNyhvCilC6bqmn2tkoR7thm1Y6X1Bgy1yp5CSlRX
+r8e+gB6c2XDVzeOhEAnPjmRw5QdXTI6SmIlw1dibCoSTnNJ+JM7gWUCe5bRDjETZSjzy0fXK+oiP
+++EFTSW8BaA+4P6MI+sSJZYGjnq4vCBMVo6IeL9xSY3lxHu7OimP5fDycgJYqmmKlGTj2R72lQHy
+mns+HyyOshYb9+6zqP/ApxoXoAXAzHlmlNT0011x6kOLqZDaWbiDI4RZpxkhdlvV6GKU2imRHbFE
+2TkvVyRiaf4uzXOqmiziA/KoH39kBVFzDqLGZg==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

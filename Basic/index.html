@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Tizen Mobile Web Basic Template" />
+
+    <title>Tizen Mobile Web Basic Application</title>
+
+	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
+    <script type="text/javascript" src="lib/tau/wearable/js/tau.js"></script>
+    <script src="js/jquery-2.0.0.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="ui-page ui-page-active" id="main">
+		<header class="ui-header">
+			<h2 class="ui-title">Set an Alarm</h2>
+		</header>
+		<div class="ui-content">
+			<input type="time" name="time" id="picker_time" value="" onchange="pickTime()"/>
+			Turn on the alarm
+			<div class="ui-toggleswitch">
+				<input type="checkbox" class="ui-switch-input" id="picker_enable" onchange="resetAlarms()">
+				<div class="ui-switch-button"></div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
