@@ -3,6 +3,5 @@
 #modify
 res/wgt/author-signature.xml
 res/wgt/signature1.xml
-res/wgt/jqm.html
-res/wgt/js/vibro.js
-res/wgt/js/wifiinfo.js
+res/wgt/files.html
+res/wgt/js/files.js
